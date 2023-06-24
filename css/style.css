@@ -46,7 +46,7 @@ nav{
     }
 
     .navbar{
-        border: 1px solid white;
+        /* border: 1px solid white; */
         width: 550px;
         height: 100%;
         color: white;
@@ -63,4 +63,51 @@ nav{
         margin: 10px;
         padding: 10px;
         list-style-type: none;
+    }
+    .right-buttons{
+        border-radius: 10%;
+        /* border: 2px solid red; */
+        align-content: center;
+        justify-content: space-evenly;
+        width: 400px;
+        
+   
+
+    }
+    .open_account{
+        background: rgb(255,195,0);
+        background: linear-gradient(90deg, rgba(255,195,0,1) 0%, rgba(216,168,14,1) 56%);
+        height: 60%;
+        width: 30%;
+        border-radius: 8%;
+        border: none;
+        align-content: center;
+        justify-content: space-evenly;
+        margin: 10px;
+        justify-content: flex-end;
+        right: 10px;
+   
+    }
+
+    .signin{
+        background: rgb(255,195,0);
+        background: linear-gradient(90deg, rgba(255,195,0,1) 0%, rgba(216,168,14,1) 56%);
+        height: 60%;
+        width: 30%;
+        border-radius: 8%;
+        border: none;
+        align-content: center;
+        justify-content: space-evenly;
+        margin: 10px;
+        right: 10px;
+        margin-right: 20px;
+    }
+
+    .web{
+        border-radius: 8%;
+        border: none;
+        align-content: center;
+        justify-content: space-evenly;
+        /* right: 50%; */
+        right: 30px;
     }
