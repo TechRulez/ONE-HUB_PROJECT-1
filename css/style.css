@@ -111,3 +111,133 @@ nav{
         /* right: 50%; */
         right: 30px;
     }
+    .hero{
+       margin: -10px;
+        height: 380px;
+        background-image: url(https://images.ctfassets.net/o9uqivq4bpuc/zJdDpdyioFIIqbouqkiit/b098f9d05b13c2f7805ed87c5bd2ebef/b2b-home-page-header-desktop.jpg?w=992&h=325&fl=progressive&q=85&fm=jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+        /* border: 5px solid blue; */
+    }
+
+    .mainbackg{
+        /* background-image: url(https://images.ctfassets.net/o9uqivq4bpuc/zJdDpdyioFIIqbouqkiit/b098f9d05b13c2f7805ed87c5bd2ebef/b2b-home-page-header-desktop.jpg?w=992&h=325&fl=progressive&q=85&fm=jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain; */
+        /* border: 5px solid rgb(82, 31, 31); */
+    
+        position: relative;
+        display: flex;
+        height: 100%;
+        flex-direction  : column ;
+        justify-content: center;
+    }
+    .text_for_hero{
+        display: block;
+        margin-block-start: 1em ;
+        margin-block-end: 1em;
+        margin-block-start: 0px;
+        margin-inline-end: 0px;
+        flex-direction  : column ;
+        color: white;
+        transform: translateX(20PX) translateY(80px);
+        
+
+    }
+
+    .title_for_hero{
+        display: block;
+        margin-block-start: 10xem ;
+        margin-block-end: 10em;
+        margin-block-start: 0px;
+        margin-inline-end: 0px;
+        flex-direction  : column ;
+        justify-content: center;
+        color: white;
+        transform: translateX(20PX) translateY(80px);
+    }
+
+    .requestmoreinfo{
+        background: rgb(255,195,0);
+        background: linear-gradient(90deg, rgba(255,195,0,1) 0%, rgba(216,168,14,1) 56%);
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        position: relative;
+        vertical-align: middle;
+        width: 100%;
+        text-size-adjust: 100%;
+        height: 60px;
+        border-radius: 4px;
+        border: none;
+        align-content: center;
+        align-self: baseline;
+        bottom: 15  0px;
+    }
+
+    .bodily_title{
+            text-align: center;
+            margin: 0;
+            font-weight: 600;
+            font-size: 28px;
+            margin-bottom: 16px;
+            display: block;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-size-adjust: 100%;
+    }
+    .bodily_phrase{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+    }
+    
+    .units{
+            padding: 10px;
+            margin: 10px;
+            color: #0f171c;
+            
+            border-radius: 8px;
+            height: 100%;
+            font-weight: 400;
+            font-size: 1rem;
+            width: 400px;
+            display: flex;
+            justify-content: space-between;
+            flex-flow: row ;
+    }
+    .transparency{
+        background: #F4F5F6;
+        border-radius: 8px;
+        text-size-adjust: 100%;
+        font-weight: 400;
+        font-size: 1rem;
+
+    }
+
+    h4{
+        margin-bottom: 8px;
+        margin: 0;
+        font-weight: 600;
+        font-size: 18px;
+
+    }
+    
+    .liquidity{
+        align-self: center;
+        background: #F4F5F6;
+        border-radius: 8px;
+        /* margin: 2px; */
+        text-size-adjust: 100%;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    .liquid{
+        margin-bottom: 8px;
+        margin: 0;
+        font-weight: 600;
+        font-size: 18px;
+    }
