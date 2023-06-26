@@ -18,6 +18,7 @@ header{
     background: rgb(98,98,99);
     background: linear-gradient(90deg, rgba(98,98,99,1) 0%, rgba(0,0,3,1) 46%);
     height: 70px;
+    position: sticky;
 
 }
 
@@ -234,7 +235,7 @@ nav{
             height: 100%;
             font-weight: 400;
             font-size: 1rem;
-            width: 400px;
+            width: 450px;
             display: flex;
             justify-content: space-between;
             flex-flow: row ;
@@ -245,6 +246,7 @@ nav{
         text-size-adjust: 100%;
         font-weight: 400;
         font-size: 1rem;
+        justify-self: self-start;
 
     }
 
@@ -263,12 +265,24 @@ nav{
         background: #F4F5F6;
         border-radius: 8px;
         justify-content: space-around;
-        left: 20px;
+        left: -200px;
         /* margin: 20px; */
         top: 0px;
         text-size-adjust: 100%;
         font-weight: 400;
         font-size: 1rem;
+        justify-self: flex-end;
+        /* position: absolute;
+        left: 430px;
+        background: #F4F5F6;
+        border-radius: 8px;
+        width: 300px;
+        height: 100px;
+        border: 3px solid #73AD21;
+        padding: 10px;
+        top: 60px
+          
+        border-radius: 8px; */
     }
 
     .liquid{
