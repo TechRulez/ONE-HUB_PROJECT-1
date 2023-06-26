@@ -67,7 +67,7 @@ nav{
 
     .nav-item{
         /* border: 1px solid; */
-        float: left;
+        /* float: left; */
         display: inline-block;
         color: white;
         text-align: center;
