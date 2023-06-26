@@ -57,23 +57,36 @@ nav{
         align-items: center;
         justify-content: space-evenly;
         }
+        .listing{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
 
     .nav-item{
         /* border: 1px solid; */
-        margin: 10px;
+        float: left;
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 10px 12px;
+        /* margin: 10px;
         padding: 10px;
-        list-style-type: none;
+        list-style-type: none; */
     }
+    .nav-item:hover{
+        background-color: #302f2f;
+    }
+
     .right-buttons{
         border-radius: 10%;
         /* border: 2px solid red; */
         align-content: center;
         justify-content: space-evenly;
         width: 400px;
-        
-   
+        }
 
-    }
     .open_account{
         background: rgb(255,195,0);
         background: linear-gradient(90deg, rgba(255,195,0,1) 0%, rgba(216,168,14,1) 56%);
@@ -89,6 +102,11 @@ nav{
    
     }
 
+    .open_account:hover{
+        background: rgb(162,128,17);
+        background: linear-gradient(90deg, rgba(162,128,17,1) 0%, rgba(165,149,96,1) 56%);
+    }
+
     .signin{
         background: rgb(255,195,0);
         background: linear-gradient(90deg, rgba(255,195,0,1) 0%, rgba(216,168,14,1) 56%);
@@ -101,6 +119,10 @@ nav{
         margin: 10px;
         right: 10px;
         margin-right: 20px;
+    }
+    .signin:hover{
+        background: rgb(162,128,17);
+        background: linear-gradient(90deg, rgba(162,128,17,1) 0%, rgba(165,149,96,1) 56%);
     }
 
     .web{
@@ -176,6 +198,11 @@ nav{
         align-self: baseline;
         bottom: 15  0px;
     }
+    
+    .requestmoreinfo:hover{
+        background: rgb(162,128,17);
+        background: linear-gradient(90deg, rgba(162,128,17,1) 0%, rgba(165,149,96,1) 56%);
+    }
 
     .bodily_title{
             text-align: center;
@@ -195,10 +222,14 @@ nav{
     }
     
     .units{
+            /* content: "";
+            clear: bo:afterth;
+            display: table; */
+        overflow: auto;
             padding: 10px;
             margin: 10px;
             color: #0f171c;
-            
+            border: 2px solid blue;
             border-radius: 8px;
             height: 100%;
             font-weight: 400;
@@ -226,10 +257,15 @@ nav{
     }
     
     .liquidity{
+        
+        float: right;
         align-self: center;
         background: #F4F5F6;
         border-radius: 8px;
-        /* margin: 2px; */
+        justify-content: space-around;
+        left: 20px;
+        /* margin: 20px; */
+        top: 0px;
         text-size-adjust: 100%;
         font-weight: 400;
         font-size: 1rem;
@@ -241,3 +277,6 @@ nav{
         font-weight: 600;
         font-size: 18px;
     }
+/* .box{float: left;
+    width: 33.33%;
+    padding: 2%;} */
