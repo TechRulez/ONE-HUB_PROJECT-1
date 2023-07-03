@@ -138,6 +138,11 @@ nav{
        margin: -10px;
         height: 380px;
         background-image: url(https://images.ctfassets.net/o9uqivq4bpuc/zJdDpdyioFIIqbouqkiit/b098f9d05b13c2f7805ed87c5bd2ebef/b2b-home-page-header-desktop.jpg?w=992&h=325&fl=progressive&q=85&fm=jpg);
+
+        /* background-image: url(https://images.ctfassets.net/o9uqivq4bpuc/zJdDpdyioFIIqbouqkiit/b098f9d05b13c2f7805ed87c5bd2ebef/b2b-home-page-header-desktop.jpg); */
+        /* background-position: left; */
+        /* background-size: 100%; */
+
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: contain;
@@ -190,7 +195,7 @@ nav{
         justify-self: center;
         position: relative;
         vertical-align: middle;
-        width: 100%;
+        width: 25%;
         text-size-adjust: 100%;
         height: 60px;
         border-radius: 4px;
@@ -198,6 +203,9 @@ nav{
         align-content: center;
         align-self: baseline;
         bottom: 15  0px;
+        padding: 10px
+        
+        
     }
     
     .requestmoreinfo:hover{
@@ -207,7 +215,7 @@ nav{
 
     .bodily_title{
             text-align: center;
-            margin: 0;
+            margin: 10px;
             font-weight: 600;
             font-size: 28px;
             margin-bottom: 16px;
@@ -294,3 +302,35 @@ nav{
 /* .box{float: left;
     width: 33.33%;
     padding: 2%;} */
+
+    .features{
+        background-color: white;
+        min-height: 500px;
+       width: 100vw;
+
+    }
+    .main_features{
+        display: flex;
+        padding: 50px 100px;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    
+    .feature_list{
+        background-color: #ecece1e1;
+        width: 27.3%;
+        height: 200px;
+        /* border: 1px solid; */
+        margin: 20px;
+        border-radius: 3%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        
+
+
+    }
